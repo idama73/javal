@@ -1,0 +1,1 @@
+Welcome to Juan Avalos's CST 336 Home Page!
