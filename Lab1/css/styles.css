@@ -3,8 +3,18 @@ body {
     color:white;
 }    
     
-    header, main, nav, footer{
+    header, nav, footer{
         text-align: center;
+    }
+    
+    main{
+        text-align:left;
+    }
+    
+    nav a:hover, #current{ /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size: 3em;
+    transition: .5s; /*transition effect*/
     }
     
     nav a { /*links with "nav" container */
@@ -15,16 +25,51 @@ body {
         color: white;           /* by defaults, links are blue*/
     }
     
-    nav a:hover{ /*pseudo class*/
-    border-bottom:2px orange solid;
-    font-size: 2em;
-    transition: .5s; /*transition effect*/
-    }
     
-    #me, #welcomeText{
+    #mepic, #welcomeText{
         float:left;
     }
     
     footer{
         clear:left;
+    }
+    
+    table{
+        margin:0px auto;
+    }
+    
+    td{
+        padding-right: 10px;
+        font-size:1.3em;
+    }
+    
+    td strong {
+        color: orange;
+    }
+    
+    #table-header {
+        background-color: #35a00;
+    }
+    
+    .table-row {
+        background-color: #753900;
+    }
+    
+    ul {
+        text-align:left;
+        padding-left: 300px;
+    }
+    
+    .hobby {
+        color:yellow;
+    }
+    
+    #googleform {
+        text-align: center;
+    }
+    
+    h1 {
+        font-family: 'Oleo Script', cursive;
+        font-size: 4em;
+        margin-bottom: 0px;
     }
