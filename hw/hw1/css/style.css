@@ -1,0 +1,17 @@
+body{
+    background-color:green;
+    color:white;
+}
+
+header, nav, footer{
+    text-align: center;
+}
+
+#topicpic{
+    float: center;
+}
+
+#description{
+    float:right;
+}
+

@@ -1,0 +1,35 @@
+[05-Feb-2018 23:23:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 18
+[05-Feb-2018 23:23:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 18
+[05-Feb-2018 23:23:55 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 18
+[05-Feb-2018 23:41:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 29
+[05-Feb-2018 23:41:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 29
+[05-Feb-2018 23:41:59 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:41:59 UTC] PHP Stack trace:
+[05-Feb-2018 23:41:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:01 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:01 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:53 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:53 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:54 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:54 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:55 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:55 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:57 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:57 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:58 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:58 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:42:59 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 37
+[05-Feb-2018 23:42:59 UTC] PHP Stack trace:
+[05-Feb-2018 23:42:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:44:53 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 38
+[05-Feb-2018 23:44:53 UTC] PHP Stack trace:
+[05-Feb-2018 23:44:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[05-Feb-2018 23:44:54 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 38
+[05-Feb-2018 23:44:54 UTC] PHP Stack trace:
+[05-Feb-2018 23:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
