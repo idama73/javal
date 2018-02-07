@@ -3,15 +3,13 @@ body{
     color:white;
 }
 
-header, nav, footer{
+header, nav, main, footer{
     text-align: center;
 }
 
-#topicpic{
-    float: center;
-}
-
-#description{
-    float:right;
-}
+h1 {
+        font-family: 'Shrikhand', cursive;
+        font-size: 4em;
+        margin-bottom: 0px;
+    }
 
