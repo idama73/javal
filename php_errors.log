@@ -1,0 +1,5 @@
+[12-Feb-2018 22:54:49 UTC] PHP Parse error:  syntax error, unexpected 'displayCard' (T_STRING) in /home/ubuntu/workspace/javal/practice/php_arrays.php on line 15
+[12-Feb-2018 22:55:19 UTC] PHP Parse error:  syntax error, unexpected 'displayCard' (T_STRING) in /home/ubuntu/workspace/javal/practice/php_arrays.php on line 15
+[12-Feb-2018 22:55:20 UTC] PHP Parse error:  syntax error, unexpected 'displayCard' (T_STRING) in /home/ubuntu/workspace/javal/practice/php_arrays.php on line 15
+[12-Feb-2018 22:55:34 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/javal/practice/php_arrays.php on line 17
+[12-Feb-2018 22:55:35 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/javal/practice/php_arrays.php on line 17

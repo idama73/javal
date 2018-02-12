@@ -33,3 +33,19 @@
 [05-Feb-2018 23:44:54 UTC] PHP Fatal error:  Call to undefined function dispalSymbol() in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 38
 [05-Feb-2018 23:44:54 UTC] PHP Stack trace:
 [05-Feb-2018 23:44:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/index.php:0
+[08-Feb-2018 00:35:29 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/javal/labs/lab2/index.php on line 53
+[11-Feb-2018 05:17:49 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/javal/labs/lab2/Index.php on line 12
+[11-Feb-2018 05:17:49 UTC] PHP Stack trace:
+[11-Feb-2018 05:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/Index.php:0
+[11-Feb-2018 05:18:24 UTC] PHP Warning:  include(inc/funtions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab2/Index.php on line 9
+[11-Feb-2018 05:18:24 UTC] PHP Stack trace:
+[11-Feb-2018 05:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/Index.php:0
+[11-Feb-2018 05:18:24 UTC] PHP Warning:  include(): Failed opening 'inc/funtions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab2/Index.php on line 9
+[11-Feb-2018 05:18:24 UTC] PHP Stack trace:
+[11-Feb-2018 05:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/Index.php:0
+[11-Feb-2018 05:18:24 UTC] PHP Fatal error:  Call to undefined function play() in /home/ubuntu/workspace/javal/labs/lab2/Index.php on line 10
+[11-Feb-2018 05:18:24 UTC] PHP Stack trace:
+[11-Feb-2018 05:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/Index.php:0
+[11-Feb-2018 08:57:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting '(' in /home/ubuntu/workspace/javal/labs/lab2/inc/functions.php on line 40
+[11-Feb-2018 08:57:49 UTC] PHP Stack trace:
+[11-Feb-2018 08:57:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab2/Index.php:0
