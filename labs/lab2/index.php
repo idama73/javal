@@ -35,6 +35,7 @@
             switch($randomValue1){
                 case 0: $totalPoints = 1000;
                     echo "<h1>Jackpot!</h1>";
+                    echo "<source src='Jackpot.mp3' />";
                     break;
                 case 1: $totalPoints = 500;
                     break;

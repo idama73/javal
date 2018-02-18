@@ -29,15 +29,15 @@
                         break;
                     case 2: $totalPoints = 250;
                         break;
-                    case 3: $totalPoints = 900;
+                    case 3: $totalPoints = 800;
                         break;
-                    case 4: $totalPoints = 750;
+                    case 4: $totalPoints = 650;
                      break;
                     
                 }
                 echo "<h2>You won $totalPoints points!</h2>";
             }
-            if($randomValue1 == 1 && $randomValue2 == 1){
+            else if($randomValue1 == 1 && $randomValue2 == 1){
                 $totalPoints = 150;
                 echo "<h2>You won $totalPoints points!</h2>";
             }else {
@@ -49,7 +49,8 @@
         function play() {
             for($i=1; $i<4; $i++) {
                 ${"randomValue" . $i } = rand(0,4);
-                displaySymbol(${"randomValue" . $i}, $i);
+               // displaySymbol(${"randomValue" . $i}, $i);
+               displaySymbol(${"randomValue". $i},$i);
             }
             displayPoints($randomValue1, $randomValue2, $randomValue3);
         }
