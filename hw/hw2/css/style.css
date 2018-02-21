@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css?family=Anton" rel="stylesheet'); 
+
+body{
+    background-color: black;
+    background-image: url("../img/boardcolor.jpg");
+    color: white;
+}
+footer{
+    text-align: center;
+}
+#player, #dealers{
+    text-align: center;
+}
+#player{
+    font-size: 3em;
+}
+#dealers{
+    font-size: 1em;
+}
+
+input{
+    top:75px;
+    left:530px;
+    position: center;
+    font-size:0.75em;
+    background-color: rgb(0,0,0);
+    border:none;
+    outline: dotted; /*hides button outline when clicking on it*/
+    font-weight:bold;
+    color:yellow;
+    cursor:pointer;
+}
+
+h1, h2, h3{
+    font-family: 'Anton', sans-serif;
+    
+}
