@@ -3,7 +3,9 @@
         width:100%;
         text-align:center;
         color:yellow;
+        text-shadow: rgb(0,0,0);
     }
+    
     
     input {
         border-radius: 25px;
