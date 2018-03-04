@@ -6,6 +6,7 @@
     }
     
     input {
+        border-radius: 25px;
         font-size: 3em;
         color: black;
     }
@@ -13,4 +14,17 @@
     #carousel-example-generic {
          margin: 0 auto;   
          width: 700px;
+    }
+    
+    #HoriVeri{
+        display: inline-block;
+        color: black;
+        text-align: left;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    body{
+        text-align: center;
     }

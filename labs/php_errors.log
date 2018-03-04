@@ -1,0 +1,48 @@
+[26-Feb-2018 22:58:24 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:24 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:24 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:24 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:24 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 11
+[26-Feb-2018 22:58:24 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:34 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:34 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:34 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:34 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:34 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 11
+[26-Feb-2018 22:58:34 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:38 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:38 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:38 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 22:58:38 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 22:58:38 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 11
+[26-Feb-2018 22:58:38 UTC] PHP Stack trace:
+[26-Feb-2018 22:58:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:43 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 23:02:43 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:43 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 23:02:43 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:43 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 11
+[26-Feb-2018 23:02:43 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:54 UTC] PHP Warning:  include(api/pixabayAPI.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 23:02:54 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:54 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPI.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 7
+[26-Feb-2018 23:02:54 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[26-Feb-2018 23:02:54 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 11
+[26-Feb-2018 23:02:54 UTC] PHP Stack trace:
+[26-Feb-2018 23:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab4/index.php:0
+[03-Mar-2018 00:13:40 UTC] PHP Parse error:  syntax error, unexpected '$imageURLs' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 32
+[03-Mar-2018 00:13:48 UTC] PHP Parse error:  syntax error, unexpected '$imageURLs' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 32
+[03-Mar-2018 00:13:51 UTC] PHP Parse error:  syntax error, unexpected '$imageURLs' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/javal/labs/lab4/index.php on line 32
