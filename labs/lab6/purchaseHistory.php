@@ -44,6 +44,9 @@
 <html>
     <head>
         <title> </title>
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
 
