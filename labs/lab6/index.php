@@ -90,6 +90,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset=”utf-8” /> 
         <title> OtterMart Product Search </title>
        <style>
             @import url("css/style.css");
