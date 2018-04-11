@@ -68,7 +68,7 @@
                     
                     $sql.="ORDER BY price";
                 }else{
-                    $ssql .= "ORDER BY productName";
+                    $sql .= "ORDER BY productName";
                 }
             }
             //echo $sql; //for debugging purposes

@@ -1,0 +1,49 @@
+[04-Apr-2018 22:39:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'otttermart'' in /home/ubuntu/workspace/javal/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/javal/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/javal/labs/lab7/admin.php(9): getDatabaseConnection('otttermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/dbConnection.php on line 19
+[04-Apr-2018 22:42:49 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/javal/labs/lab7/admin.php on line 13
+[04-Apr-2018 22:42:49 UTC] PHP Stack trace:
+[04-Apr-2018 22:42:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/admin.php:0
+[04-Apr-2018 22:42:49 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/javal/labs/lab7/admin.php:43
+[04-Apr-2018 22:43:22 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/javal/labs/lab7/admin.php on line 13
+[04-Apr-2018 22:43:22 UTC] PHP Stack trace:
+[04-Apr-2018 22:43:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/admin.php:0
+[04-Apr-2018 22:43:22 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/javal/labs/lab7/admin.php:43
+[09-Apr-2018 21:34:48 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/javal/labs/lab7/updateProduct.php on line 6
+[09-Apr-2018 21:35:14 UTC] PHP Parse error:  syntax error, unexpected '$np' (T_VARIABLE) in /home/ubuntu/workspace/javal/labs/lab7/updateProduct.php on line 45
+[09-Apr-2018 21:35:49 UTC] PHP Parse error:  syntax error, unexpected '$np' (T_VARIABLE) in /home/ubuntu/workspace/javal/labs/lab7/updateProduct.php on line 45
+[09-Apr-2018 21:35:50 UTC] PHP Parse error:  syntax error, unexpected '$np' (T_VARIABLE) in /home/ubuntu/workspace/javal/labs/lab7/updateProduct.php on line 45
+[09-Apr-2018 21:35:52 UTC] PHP Parse error:  syntax error, unexpected '$np' (T_VARIABLE) in /home/ubuntu/workspace/javal/labs/lab7/updateProduct.php on line 45
+[10-Apr-2018 00:10:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY price' at line 1' in /home/ubuntu/workspace/javal/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/javal/labs/lab6/index.php(133): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab6/index.php on line 77
+[10-Apr-2018 00:21:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY price' at line 1' in /home/ubuntu/workspace/javal/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/javal/labs/lab6/index.php(133): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab6/index.php on line 77
+[10-Apr-2018 00:22:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY price' at line 1' in /home/ubuntu/workspace/javal/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/javal/labs/lab6/index.php(133): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab6/index.php on line 77
+[10-Apr-2018 00:22:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY price' at line 1' in /home/ubuntu/workspace/javal/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/javal/labs/lab6/index.php(133): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab6/index.php on line 77
+[10-Apr-2018 00:22:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'BY price' at line 1' in /home/ubuntu/workspace/javal/labs/lab6/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab6/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/javal/labs/lab6/index.php(133): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab6/index.php on line 77
