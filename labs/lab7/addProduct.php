@@ -11,12 +11,12 @@ function getCategories(){
     global $conn;
     
     $sql = "SELECT catId, catName FROM om_category ORDER BY catName";
-    $statement = $conn ->prepare($sql);
-    $statement ->execute();
-    $record = $statement->fetchAll(PDO::FETCH_ASSOC);
     
+    $statement = $conn->prepare($sql);
+    $statement->execute();
+    $records = $statement->fetchAll(PDO::FETCH_ASSOC);
     foreach($records as $record){
-        echo "<oprion>".$record['catName'].">".$record['catName']."</option>";
+        echo "<option value='".$record["catId"]."'>".$record['catName']."</option>";
     }
 }
 
@@ -46,6 +46,10 @@ if(isset($_GET['submitProduct'])){
 <html>
     <head>
         <title> Add a product</title>
+        <style>
+        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+        @import url("css/styles.css");
+    </style>
     </head>
     <body>
         <h1> Add a product</h1>
@@ -55,11 +59,14 @@ if(isset($_GET['submitProduct'])){
             Price: <input type="text" name="price"><br>
             Category: <select name = "catId">
                 <option value="1">-Select One-</option>
-                <??>
-            </select><br>
-            Image URL:<input type="text" name="productImage"><br>
-            <input type="submit" value="submitProduct"><br>
+                <?php getCategories(); ?>
+            </select> <br>
+            Set Image URL:<input type="text" name="productImage"><br>
+            <br>
+            <input type="submit" name="submitProduct" value="Add Product"><br>
         </form>
 
+    <script src="https://ajax.googleapis.com./ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.css"></script>
     </body>
 </html>

@@ -25,7 +25,9 @@ function displayAllProducts(){
 <html>
     <head>
         <title> Admin Main Page </title>
-        <<style>
+        <style>
+        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+        @import url("css/styles.css");
             form{
                 display: inline;
             }
@@ -53,26 +55,32 @@ function displayAllProducts(){
             <input type="submit" value="logout"/>
         </form>
         
-        <br />
+        <br /><br />
         <strong> Products: </strong> <br />
         
         <?php $records=displayAllProducts();
             foreach($records as $record) {
+                echo "<div class = 'options'>";
                 echo "[<a href='updateProduct.php?productId=".$record['productId']."'>Update</a>]";
+                //echo "<input type ='submit' value='Remove'>";
                 //echo "[<a href='deleteProduct.php?productId=".$record['productId']."'>Delete</a>]";
-                
+                echo "</div>";
+                echo"<div class = 'products'>";
                 echo "<form action ='deleteProduct.php'onsubmit='return confirmDelete()'>";
                 echo "<input type='hidden' name='productId' value=".$record['productId']."/>";
                 echo "<input type ='submit' value='Remove'>";
-                echo "</form>";
+                 echo "</form>";
                 
                 echo $record['productName'];
+                echo '<br>';
+                echo "<div>";
                 echo '<br>';
             }
         
         ?>
         
         
-
+    <script src="https://ajax.googleapis.com./ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.css"></script>
     </body>
 </html>

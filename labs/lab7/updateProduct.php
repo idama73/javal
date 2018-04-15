@@ -72,7 +72,10 @@
 <html>
     <head>
         <title>Update Product </title>
-        
+        <style>
+        @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+        @import url("css/styles.css");
+    </style>
     </head>
     <body>
         <h1>Update Product</h1>
@@ -91,5 +94,8 @@
             <input type="submit" name="updateProduct" value="Update Product">
             
         </form>
+        
+        <script src="https://ajax.googleapis.com./ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.css"></script>
     </body>
 </html>

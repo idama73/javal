@@ -1,1 +1,4 @@
 [09-Apr-2018 22:27:14 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/javal/Challenge/Chanllege2/Challenge.php on line 3
+[11-Apr-2018 22:25:53 UTC] PHP Fatal error:  Call to undefined function dbConnection() in /home/ubuntu/workspace/javal/Challenge/Chanllege2/Challenge.php on line 5
+[11-Apr-2018 22:25:53 UTC] PHP Stack trace:
+[11-Apr-2018 22:25:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/Chanllege2/Challenge.php:0

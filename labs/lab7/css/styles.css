@@ -1,0 +1,18 @@
+h1{
+    text-align:center;
+}
+
+body{
+    text-align:center;
+    
+}
+
+div.options{
+    word-spacing: 1px;
+}
+div.products{
+    line-Height: 1.2;
+}
+input.Remove{
+    border-radius: 20px;
+}
