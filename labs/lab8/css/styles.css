@@ -1,0 +1,38 @@
+#won, #lost{
+    display: none;
+}
+
+#word, #letters{
+    padding:20px 0px;
+}
+
+button{
+    background-color: yellow;
+}
+
+
+#man{
+    margin: 20px auto;
+    width: 600px;
+    height: 600px;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+#word {
+    font-size: 1.8em !important;
+}
+
+.hint {
+    font-size: 0.6em !important;
+}
+
+.btn{
+    padding: 9px 9px !important;
+    margin:0px 2px;
+}
+
+footer{
+    text-align: center;
+}
