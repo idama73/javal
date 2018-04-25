@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>SPACE INVADERS</title>
+		<style>
+			#gameScreen{
+				position: relative;
+				background-color: silver;
+				overflow: hidden;
+			}
+
+			.gameObject{
+				position: absolute;
+				z-index: 1;
+			}
+			footer{
+				text-align:center;
+			}
+
+		</style>
+	</head>
+	<body onload="init()">
+		<script src="js/script.js"></script>
+		<div id="gameScreen"></div>
+		<div id="output"></div>
+	</body>
+	<footer> 
+    <hr>
+            CST 336. 2018&copy; Avalos<br />
+            <strong>Disclaimer: </strong> The information is this webpage is fictitous. <br />
+            It is used for academic purpose only.<br/>
+            <img src="../../img/csumb_logo.jpg" alt="Logo"/>
+    </footer>
+</html>
