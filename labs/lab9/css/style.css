@@ -1,0 +1,23 @@
+body{
+    text-align:center;
+   /*background-color: yellow;*/
+}
+legend{
+    text-align: center;
+}
+
+select{
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+fieldset{
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+#submit{
+    border-radius: 5px;
+}
+

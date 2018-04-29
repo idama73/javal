@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>AJAX: Sign Up Page</title>
-
+        <style>
+            @import url("css/style.css");
+        </style>
         <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
         <script>
         
@@ -21,6 +23,102 @@
             $(document).ready( function(){
                 
                 //EVENTS
+                
+                $("#username").change( function(){ 
+                    //alert( $("#username").val() )
+                    
+                    $.ajax({
+
+                        type: "GET",
+                        url: "checkUsernameAPI.php",
+                        dataType: "json",
+                        data: { "username": $("#username").val() },
+                        success: function(data,status) {
+                             //alert(data);
+                             
+                             if (!data) {  //data == false
+                             
+                                //alert("Username is Available");
+                                $("#usernameValidation").html("Username is Available");
+                                $("#usernameValidation").css("color","green");
+                                
+                                
+                                
+                             } else {
+                                 
+                                //alert("Username is ALREADY TAKEN");
+                                $("#usernameValidation").html("Username is Taken");
+                                $("#usernameValidation").css("color","red");
+                                 
+                             }
+                             
+                             
+                        
+                        },
+                        complete: function(data,status) { //optional, used for debugging purposes
+                        //alert(status);
+                    }
+
+            });//ajax
+        });
+        
+        $("#passrepeat").change( function(){
+            if ($("#password").val() != $("#passrepeat").val()) {  //data == false
+                             
+                //alert("Username is Available");
+                $("#passcheck").html("Passwrod is not the same, Rety!");
+                $("#passcheck").css("color","red");
+                                
+                                
+                                
+            } else {
+                                 
+                //alert("Username is ALREADY TAKEN");
+                $("#passcheck").html("Password are the SAME!");
+                $("#passcheck").css("color","green");
+                                 
+            }
+        });
+
+// $("#passrepeat").change( function(){ 
+//                     //alert( $("#username").val() )
+                    
+// //                     $.ajax({
+
+// //                         type: "GET",
+// //                         url: "checkUsernameAPI.php",
+// //                         dataType: "json",
+// //                         data: { "password": $("#password").val() },
+// //                         success: function(data,status) {
+// //                              //alert(data);
+                             
+//                              if ($("#password").val() != $("#passrepeat").val()) {  //data == false
+                             
+//                                 //alert("Username is Available");
+//                                 $("#pass2").html("Passwrod is not the same Rety!");
+//                                 $("#pass2").css("color","red");
+                                
+                                
+                                
+//                              } else {
+                                 
+//                                 //alert("Username is ALREADY TAKEN");
+//                                 $("#pass2").html("Password are the SAME!");
+//                                 $("#pass2").css("color","green");
+                                 
+//                              }
+                             
+                             
+                        
+// //                         },
+// //                         complete: function(data,status) { //optional, used for debugging purposes
+// //                         //alert(status);
+// //                     }
+
+// // });//ajax
+                    
+//                 });
+                
                 $("#state").change( function () {
                     //alert("hi")
                     //alert( $("#state").val());
@@ -28,15 +126,16 @@
                     $.ajax({
 
                         type: "GET",
-                        url: "https://itcdland.csumb.edu/~milara/ajax/countyList.php",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php",
                         dataType: "json",
                         data: { "state": $("#state").val()},
                         success: function(data,status) {
                         //alert(data[0]['county']);
                         //alert(data[0].county);
+                        $("#county").html("<option>Select One</option>");
                         for(var i=0; i<data.length; i++)
                         {
-                           $("#county").html("<option>" + data[i].county + "</option>"); 
+                           $("#county").append("<option>" + data[i].county + "</option>"); 
                         }
                         
                         },
@@ -54,13 +153,24 @@
                     
                     $.ajax({
                         type: "GET",
-                        url: "https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                        url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
                         dataType: "json",
                         data: { "zip": $("#zipCode").val() },
                         success: function(data,status) {
+                            
+                            if(data == false){
+                                $("#Zip").html("Zipcode is Invalid");
+                                $("#Zip").css("color", "red");
+                            }
+                            else{
+                                $("#Zip").html("");
+                                $("#city").html(data.city);
+                                $("#latitude").html(data.latitude);
+                                $("#longitude").html(data.longitude);
+                            }
                         
                            //alert(data.city);
-                           $("#city").html(data.city);
+                           //$("#city").html(data.city);
                         
                         },
                         complete: function(data,status) { //optional, used for debugging purposes
@@ -73,7 +183,7 @@
 
 
                 
-            } ); //documentReady
+            }); //documentReady
             
             
         </script>
@@ -91,12 +201,12 @@
                 Last Name:   <input type="text"><br> 
                 Email:       <input type="text"><br> 
                 Phone Number:<input type="text"><br><br>
-                Zip Code:    <input type="text" id="zipCode"><br>
+                Zip Code:    <input type="text" id="zipCode"><span id="Zip"></span><br>
                 City:        <span id="city"></span>
                 <br>
-                Latitude: 
+                Latitude:     <span id="latitude"></span>
                 <br>
-                Longitude:
+                Longitude:     <span id="longitude"></span>
                 <br><br>
                 State:     
                 <select id="state">
@@ -109,11 +219,11 @@
                 
                 Select a County: <select id="county"></select><br>
                 
-                Desired Username: <input type="text"><br>
+                Desired Username: <input id="username" type="text"><span style="color:red" id="usernameValidation"></span><br>
                 
-                Password: <input type="password"><br>
+                Password: <input id="password" type="password"><span style="color:red" id="passcheck"></span><br>
                 
-                Type Password Again: <input type="password"><br>
+                Type Password Again: <input id="passrepeat" type="password"><span style="color:red" id="passcheck"></span><br>
                 
                 <input type="submit" value="Sign up!">
             </fieldset>
