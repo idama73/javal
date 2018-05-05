@@ -6,6 +6,7 @@ head, body, footer{
 
 body {
     /*background-color: green;*/
+    text-align: center;
     font-family: 'Merriweather', serif;
     /*font-family: 'Jua', sans-serif;*/
     background-image:url("../img/library.jpg");
@@ -74,4 +75,7 @@ p{
 mark{
     background-color: yellow;
     color: black;
+}
+a{
+  text-align: center;  
 }

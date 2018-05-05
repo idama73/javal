@@ -71,3 +71,8 @@ Stack trace:
 [15-Apr-2018 00:22:36 UTC] PHP Stack trace:
 [15-Apr-2018 00:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:0
 [15-Apr-2018 00:22:36 UTC] PHP   2. getCategories() /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:62
+[30-Apr-2018 06:53:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41

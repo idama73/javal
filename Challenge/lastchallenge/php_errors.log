@@ -1,0 +1,21 @@
+[02-May-2018 22:17:02 UTC] PHP Warning:  PDO::prepare() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 32
+[02-May-2018 22:17:02 UTC] PHP Stack trace:
+[02-May-2018 22:17:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
+[02-May-2018 22:17:02 UTC] PHP   2. PDO->prepare() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:32
+[02-May-2018 22:17:02 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 33
+[02-May-2018 22:17:02 UTC] PHP Stack trace:
+[02-May-2018 22:17:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
+[02-May-2018 22:17:47 UTC] PHP Warning:  PDO::prepare() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 32
+[02-May-2018 22:17:47 UTC] PHP Stack trace:
+[02-May-2018 22:17:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
+[02-May-2018 22:17:47 UTC] PHP   2. PDO->prepare() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:32
+[02-May-2018 22:17:47 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 33
+[02-May-2018 22:17:47 UTC] PHP Stack trace:
+[02-May-2018 22:17:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
+[02-May-2018 22:17:49 UTC] PHP Warning:  PDO::prepare() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 32
+[02-May-2018 22:17:49 UTC] PHP Stack trace:
+[02-May-2018 22:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
+[02-May-2018 22:17:49 UTC] PHP   2. PDO->prepare() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:32
+[02-May-2018 22:17:49 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php on line 33
+[02-May-2018 22:17:49 UTC] PHP Stack trace:
+[02-May-2018 22:17:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Challenge/lastchallenge/poll/pollapi.php:0
