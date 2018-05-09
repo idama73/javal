@@ -70,7 +70,7 @@ function getAuthor(){
                 SET bookName = :bookName,
                     bookDescription = :bookDescription,
                     bookImage = :bookImage,
-                    categoryID = :categoryID
+                    categoryID = :categoryID,
                     price = :price
                 WHERE bookID = :bookID";
         
@@ -79,7 +79,7 @@ function getAuthor(){
         $np[":bookDescription"] = $_GET['description'];
         $np[":bookImage"] = $_GET['bookImage'];
         $np[":categoryID"] = $_GET['categoryID'];
-        $np[":price"] = $_GET[''];
+        $np[":price"] = $_GET['price'];
         $np[":bookID"] = $_GET['bookID'];
                 
         $statement = $conn->prepare($sql);

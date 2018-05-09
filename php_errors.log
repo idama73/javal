@@ -363,3 +363,21 @@ Stack trace:
 [09-May-2018 11:23:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/javal/Finalproj/deleteBook.php on line 5
 [09-May-2018 11:23:41 UTC] PHP Stack trace:
 [09-May-2018 11:23:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/Finalproj/deleteBook.php:0
+[09-May-2018 17:16:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'price = NULL
+                WHERE bookID = '24'' at line 6' in /home/ubuntu/workspace/javal/Finalproj/updateBook.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/javal/Finalproj/updateBook.php(86): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/Finalproj/updateBook.php on line 86
+[09-May-2018 17:17:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'price = NULL
+                WHERE bookID = '24'' at line 6' in /home/ubuntu/workspace/javal/Finalproj/updateBook.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/javal/Finalproj/updateBook.php(86): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/Finalproj/updateBook.php on line 86
+[09-May-2018 17:21:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'price = NULL
+                WHERE bookID = '25'' at line 6' in /home/ubuntu/workspace/javal/Finalproj/updateBook.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/javal/Finalproj/updateBook.php(86): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/Finalproj/updateBook.php on line 86
