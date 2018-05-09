@@ -76,3 +76,51 @@ Stack trace:
 #0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
 #1 {main}
   thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:37:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:42:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:45:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:46:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:51:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[08-May-2018 17:52:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/javal/labs/lab7/addProduct.php(41): PDOStatement->execute(NULL)
+#1 {main}
+  thrown in /home/ubuntu/workspace/javal/labs/lab7/addProduct.php on line 41
+[09-May-2018 11:34:25 UTC] PHP Warning:  include(../../dbdConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 3
+[09-May-2018 11:34:25 UTC] PHP Stack trace:
+[09-May-2018 11:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
+[09-May-2018 11:34:25 UTC] PHP Warning:  include(): Failed opening '../../dbdConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 3
+[09-May-2018 11:34:25 UTC] PHP Stack trace:
+[09-May-2018 11:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
+[09-May-2018 11:34:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 5
+[09-May-2018 11:34:25 UTC] PHP Stack trace:
+[09-May-2018 11:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
+[09-May-2018 11:34:44 UTC] PHP Warning:  include(../../bdConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 3
+[09-May-2018 11:34:44 UTC] PHP Stack trace:
+[09-May-2018 11:34:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
+[09-May-2018 11:34:44 UTC] PHP Warning:  include(): Failed opening '../../bdConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 3
+[09-May-2018 11:34:44 UTC] PHP Stack trace:
+[09-May-2018 11:34:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
+[09-May-2018 11:34:44 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php on line 5
+[09-May-2018 11:34:44 UTC] PHP Stack trace:
+[09-May-2018 11:34:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/javal/labs/lab7/deleteProduct.php:0
